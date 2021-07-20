@@ -25,7 +25,7 @@ function ToDoForm({ addTask }) {
                 type="text"
                 onChange={handleChange}
                 onKeyDown={handleKeyPress}
-                placeholder="Введите значение..."
+                placeholder="Введите текст..."
             />
             <button>Сохранить</button>
         </form>
